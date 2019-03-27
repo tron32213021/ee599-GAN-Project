@@ -1,0 +1,74 @@
+\documentclass[11pt]{article}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+
+
+
+\usepackage[html,dvipsnames]{xcolor}
+
+
+\setlength{\textwidth}{6.5in}
+\setlength{\textheight}{9.0in}
+\headheight=0.5in
+\topmargin=-0.75in
+\oddsidemargin= 0.0in
+\evensidemargin=-0.25in
+
+
+\usepackage[pdfauthor={Zhenye Jiang},pdftitle={EE 599 Project Summary},% 
+pdftex,bookmarks]{hyperref} 
+\hypersetup{colorlinks,% 
+citecolor=green,% 
+filecolor=Orange,% 
+linkcolor=blue,% 
+urlcolor=BrickRed,% 
+pdftex} 
+
+
+
+\pagestyle{myheadings}
+\markright{{\bf EE599 - \copyright K.M. Chugg - Spring 2019} }
+
+
+\title{\bf EE599 Deep Learning -- Initial Project Proposal}
+\author{\copyright  Zhenye Jiang}
+
+\begin{document}
+\maketitle
+
+\paragraph{Project Title:}  landscape image inpainting based on GAN
+
+\paragraph{Project Team:} Zhenye Jiang, Yanbang Kan, Maria Mangassarian
+
+\paragraph{Project Summary:}   In this project we propose to build a GAN which can fill content in a given landscape image with blank that makes the artificial image natural and real. We will collect data from Google Image and some open image databases. A successful outcome would be that given an landscape image with some blank area, the network generates contents to fill in these area and makes the artificial result looks natural. 
+
+\paragraph{Data Needs and Acquisition Plan:}  The landscape images are quite massive on Flickr and Google Image, we decide to download 10k to 100k landscape image with mountains and rivers as our train dataset. These images will be transformed into fixed size like 512x512.
+
+
+\paragraph{Primary References and Codebase:}  We propose to build on the approach used in 
+
+\begin{itemize} 
+\item Alec Radford, Luke Metz, Soumith Chintala, ``\href{https://arxiv.org/pdf/1511.06434.pdf}{unsupervised representation learning with deep convolutional generative adversarial networks}'' 
+\item Jiahui Yu, ZHe Lin, Jimei Yang, Xiaohui Shen, Xin Lu, Thomas S. Huang, Luke Metz, Soumith Chintala, ``\href{http://openaccess.thecvf.com/content_cvpr_2018/papers/Yu_Generative_Image_Inpainting_CVPR_2018_paper.pdf}{Generative Image Inpainting with Contextual Attention}'' 
+\item Ugur Demir, Gozde Unal, ``\href{https://arxiv.org/pdf/1803.07422.pdf}{Patch-Based Image Inpainting with Generative Adversarial Networks}'' 
+\item David Bau, Jun-Yan Zhu, Hendrik Strobelt, Bolei Zhou, Joshua B. Tenenbaum, William T. Freeman, Antonio Torralba, ``\href{https://arxiv.org/pdf/1811.10597.pdf}{GAN Dissection: Visualizing and Understanding Generative Adversarial Networks}'' 
+\item Chaoyue Wang,  Chang Xu, Xin Yao, Bolei Zhou,Dacheng Tao, ``\href{https://arxiv.org/pdf/1803.00657.pdf}{Evolutionary Generative Adversarial Networks}'' 
+
+\item GitHub codebases: \href{https://github.com/tron32213021/ee599-GAN-Project} {Landscape image inpainting Code},  
+\end{itemize} 
+
+
+\paragraph{Architecture Investigation Plan:}  We plan to first read and understand above reference. Then, after being familiar with the GAN architecture and techniques, we will try to build some architectures of GAN to achieve our goal.
+
+\paragraph{Estimated Compute Needs:}  AWS p2 or p3 instance, \$100 GPU usage credits. 
+
+\paragraph{Team Roles:} The following is the rough breakdown of roles and responsibilities we plan for our team:
+\begin{itemize}
+\item Zhenye Jiang: Data collection, code the network architecture.
+\item Yanbang Kan: Data collection, find more papers in related fields.
+\item Maria Mangassarian: Final presentation, slides, and report
+\end{itemize}
+
+
+ \end{document}
