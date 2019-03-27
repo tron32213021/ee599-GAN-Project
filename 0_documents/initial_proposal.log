@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.9.11)  26 MAR 2019 20:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.9.11)  26 MAR 2019 20:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**initial_proposal_template.tex
-(./initial_proposal_template.tex
+**initial_proposal.tex
+(./initial_proposal.tex
 LaTeX2e <2018-04-01> patch level 5
 (d:/texlive/2018/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -258,8 +258,8 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 26.
 Package hyperref Warning: Option `pdftex' has already been used,
 (hyperref)                setting the option has no effect on input line 26.
 
-(./initial_proposal_template.aux)
-\openout1 = `initial_proposal_template.aux'.
+(./initial_proposal.aux)
+\openout1 = `initial_proposal.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
 LaTeX Font Info:    ... okay on input line 37.
@@ -321,9 +321,9 @@ LaTeX Info: Redefining \ref on input line 37.
 LaTeX Info: Redefining \pageref on input line 37.
 LaTeX Info: Redefining \nameref on input line 37.
 
-(./initial_proposal_template.out) (./initial_proposal_template.out)
+(./initial_proposal.out) (./initial_proposal.out)
 \@outlinefile=\write3
-\openout3 = `initial_proposal_template.out'.
+\openout3 = `initial_proposal.out'.
 
 LaTeX Font Info:    Try loading font information for U+msa on input line 39.
 
@@ -352,29 +352,28 @@ LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 74.
  [2]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 74.
- (./initial_proposal_template.aux)
+ (./initial_proposal.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 74.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 74.
-Package rerunfilecheck Info: File `initial_proposal_template.out' has not chang
-ed.
+Package rerunfilecheck Info: File `initial_proposal.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 74.
  ) 
 Here is how much of TeX's memory you used:
  6398 strings out of 492641
- 90442 string characters out of 6133131
+ 90325 string characters out of 6133131
  189882 words of memory out of 5000000
  10216 multiletter control sequences out of 15000+600000
  10364 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,11n,35p,486b,379s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,11n,35p,485b,379s stack positions out of 5000i,500n,10000p,200000b,80000s
 <d:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><d:/te
 xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/texlive/201
 8/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/texlive/2018/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2018/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2018/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmsy10.pfb>
-Output written on initial_proposal_template.pdf (2 pages, 78904 bytes).
+Output written on initial_proposal.pdf (2 pages, 78932 bytes).
 PDF statistics:
  61 PDF objects out of 1000 (max. 8388607)
  50 compressed objects within 1 object stream
