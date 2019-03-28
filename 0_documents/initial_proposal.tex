@@ -43,7 +43,7 @@ pdftex}
 
 \paragraph{Project Summary:}   In this project we propose to build a GAN which can fill content in a given landscape image with blank that makes the artificial image natural and real. We will collect data from Flickr, Google Image and some open image databases. A successful outcome would be that given an landscape image with some blank area, the network generates contents to fill in these area and makes the artificial result looks natural. 
 
-\paragraph{Data Needs and Acquisition Plan:}  The landscape images are quite massive on Flickr and Google Image, we decide to download 10k to 100k landscape image with mountains and rivers as our train dataset. These images will be transformed into fixed size like 512x512.
+\paragraph{Data Needs and Acquisition Plan:}  The landscape images are quite massive on Flickr and Google Image, we decide to download 10k to 100k landscape image with mountains and rivers as our train dataset. These images will be transformed into fixed size like 512x384.
 
 
 \paragraph{Primary References and Codebase:}  We propose to build on the approach used in 
@@ -61,7 +61,7 @@ pdftex}
 
 \paragraph{Architecture Investigation Plan:}  We plan to first read and understand above reference. Then, after being familiar with the GAN architecture and techniques, we will try to build some architectures of GAN to achieve our goal.
 
-\paragraph{Estimated Compute Needs:}  AWS p2 or p3 instance, \$100 GPU usage credits. 
+\paragraph{Estimated Compute Needs:}  AWS p2 or p3 instance, \$100 GPU usage credits. one of papers said that they trained the network with an image set of 8 million and 500k iteration for 2 months using four K80 GPUs. We will aim at a rather small training set and a fixed image size of 512x384, but still don't know total time to be used. 
 
 \paragraph{Team Roles:} The following is the rough breakdown of roles and responsibilities we plan for our team:
 \begin{itemize}
